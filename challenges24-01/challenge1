@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | First Challenge" 0.08
+
+echo -e "\n1. In the /home/your_group_name/first_flag there are too many directories named flags. If you have read this chapter you have a keyword of this file. What are the two most widely used operating systems mentioned in the Skills Required for Learning Pentesting."
+
+echo -e "\nPrompt: Popular football player now playing in Al-Nasr and his number not changing since Real Madrid. (his number is connected with folder name, it's not a .txt or binary file, it's maybe a simple file)"

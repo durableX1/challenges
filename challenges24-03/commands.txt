@@ -1,0 +1,9 @@
+bash
+ls
+cd
+mkdir
+cat
+chmod
+apt-get
+grep
+kill

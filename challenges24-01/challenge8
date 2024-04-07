@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | Eighth Challenge" 0.08
+
+echo -e "\n8. What are the two components that make up the hacker mindset, according to the text?"
+
+echo -e "\nPrompt: Follow the instructions, but firstly execute handson file."

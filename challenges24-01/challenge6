@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | Sixth Challenge" 0.08
+
+echo -e "\n6. What famous quote emphasizes the responsibility associated with power?"
+
+echo -e "\nPrompt: My code is broken please .fixme ;("

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | Tenth Challenge" 0.08
+
+echo -e "\n9. What is the purpose of the Shark Jack device made by Hak5?"
+
+echo -e "\nPrompt: "

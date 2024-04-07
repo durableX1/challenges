@@ -1,0 +1,9 @@
+What is the default shell in most Linux distributions?
+What command is used to list files and directories in Linux?
+How do you navigate to your home directory in the Linux terminal?
+What command is used to create a new directory in Linux?
+How do you display the contents of a file in the Linux terminal?
+What is the purpose of modifying file permissions in Linux?
+How do you install software packages in Debian-based Linux distributions?
+What is the purpose of searching for patterns in text files in Linux?
+How do you terminate a running process in Linux?

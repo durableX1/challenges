@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | Third Challenge" 0.08
+
+echo -e "\n3. Which website offers online training courses specifically focused on pentesting?."
+
+echo -e "\nPrompt: In /home/your_group_name you have a python file you must firstly execute for user. So after that you must run this script but you firstly create a studying_not_hard.txt and write “Try Harder” to this file. Attention without executing your points not confirmed."

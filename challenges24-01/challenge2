@@ -1,0 +1,17 @@
+#!/bin/bash
+
+animate_text() {
+    text="$1"
+    delay="$2"
+    for (( i=0; i<${#text}; i++ )); do
+        echo -n "${text:$i:1}"
+        sleep "$delay"
+    done
+    echo
+}
+
+animate_text "HaadLC - CTF | Second Challenge" 0.08
+
+echo -e "\n2. Provide an example of how experience in system administration can contribute to becoming a pentester. You find .hidden directory and there you can find your flag."
+
+echo -e "\nPrompt: Mysterious treasure you find a lot of money in hidden directory "
