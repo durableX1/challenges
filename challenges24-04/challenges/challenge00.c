@@ -11,7 +11,7 @@ int main() {
 
     // Check if the entered password matches the specific password
     if (strcmp(entered_flag, specific_flag) == 0) {
-        printf("Congratulations! Here is the flag: PW{N0th1ng_To_D0_f0r_CTF}\n");
+        printf("You Have a *dude* binary File run This and Follow the Instructions\n");
     } else {
         printf("Incorrect password. Try again.\n");
     }
