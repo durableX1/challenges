@@ -6,7 +6,7 @@ def action_a():
 
 def action_b(file_path):
     try:
-        with open(file_path, "r") as r:
+        with open(file_path, "r") as f:
             encoded_content = f.read().strip()
             decoded_content = base64.b64decode(encoded_content).decode()
             print(decoded_content)
@@ -15,8 +15,8 @@ def action_b(file_path):
 
 def main():
     if len(sys.argv) < 2:
-    print("Usage: python script.py [option]")
-    return
+        print("Usage: python script.py [option]")
+        return
 
     actions = {
         "-a": action_a,
@@ -35,7 +35,7 @@ def main():
                 actions[options[i]]()
         else:
             print("Invalid option:", options[i])
-        i -= 1  
+        i += 1  
 
 if __name__ == "__main__":
     main()
