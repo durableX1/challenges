@@ -11,7 +11,7 @@ int main() {
 
     // Check if the entered password matches the specific password
     if (strcmp(entered_password, specific_password) == 0) {
-        printf("\nYou Have a *frankin* File it contains a lot of Passwords and only one is Unique");
+        printf("\nI Think In home directory you have a python file *duplic.py* & *check_the_binary* But mostly recomended read and maybe edit and run it.");
     } else {
         printf("Incorrect password. Try again!!!\n");
     }
