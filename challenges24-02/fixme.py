@@ -41,4 +41,4 @@ def choose_greatest():
         + str(greatest_value) )
 
 
-choose_greatest()
+decode_secret()

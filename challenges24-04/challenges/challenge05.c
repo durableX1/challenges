@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char specific_flag[] = "PY{G00d_Th@T_u_c@nnotrun_binary}";
+    char specific_flag[] = "HD{6W5v7n6_2nC9y7p2d_5F9a7g}";
     char entered_flag[100];
 
     // Prompt user to enter the password
@@ -11,7 +11,7 @@ int main() {
 
     // Check if the entered password matches the specific password
     if (strcmp(entered_flag, specific_flag) == 0) {
-        printf("\nIn *barbican* directory you Have Read a Files and Follow the Directories I Think You found your Flag!");
+        printf("\nIn python file!");
     } else {
         printf("Incorrect flag. Try again!!!\n");
     }

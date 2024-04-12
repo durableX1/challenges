@@ -2,18 +2,18 @@
 #include <string.h>
 
 int main() {
-    char specific_password[] = "VM{Tr@nsper@ncy_1s_W0rking}";
-    char entered_password[100];
+    char specific_flag[] = "VM{Tr@nsper@ncy_1s_W0rking}";
+    char entered_flag[100];
 
     // Prompt user to enter the password
     printf("Please enter the passowrd: ");
-    scanf("%s", entered_password);
+    scanf("%s", entered_flag);
 
     // Check if the entered password matches the specific password
-    if (strcmp(entered_password, specific_password) == 0) {
-        printf("\nIn *barbican* directory you Have Read a Files and Follow the Directories I Think You found your Flag!");
+    if (strcmp(entered_flag, specific_flag) == 0) {
+        printf("\nIn python file!");
     } else {
-        printf("Incorrect password. Try again!!!\n");
+        printf("Incorrect flag. Try again!!!\n");
     }
 
     return 0;
