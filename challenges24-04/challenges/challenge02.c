@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char specific_password[] = "k8tD1RX4hsvMEtMXjE785INNLN";
+    char specific_password[] = "k8tDlRX4hsvMEtMXjE795INNLN";
     char entered_password[100];
 
     // Prompt user to enter the password
