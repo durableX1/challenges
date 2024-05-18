@@ -11,7 +11,7 @@ animate_text() {
 animate_text "HaadLC - Exam (CTF) | First Challenge" 0.06
 
 echo -e "\nLevel Goal:"
-echo -e "You must Code a Python file that Scrape a Hidden Flag from Your WebPage."
+echo -e "You must Code a Python Script that find Flag If There A lot of Data."
 
 echo -e "\nPrompt:"
 echo -e "We have Directory *logs.log* contains a lot of Datas You Will Handle only *FlAG*"
